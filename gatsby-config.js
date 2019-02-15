@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Portfolio v3",
-    description: "Personal WebSite",
-    author: "@amanhimself",
-    siteUrl: `http://www.amanhimself.me`
+    title: "Garrett Green | Chicago Software Engineer",
+    description: "Garrett Green - My Portfolio",
+    author: "@garrettgreen",
+    siteUrl: `http://www.garrettgreen.me`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,8 +11,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Aman Mittal Portfolio",
-        short_name: "Aman Mittal",
+        name: "Garrett Green Portfolio",
+        short_name: "Garrett Green",
         start_url: "/",
         background_color: "#69359c",
         theme_color: "#69359c",

@@ -10,7 +10,7 @@ import { what } from "../../data/about";
 const What = () => {
   return (
     <Section id="what">
-      <SectionTitle>What Am I Upto?</SectionTitle>
+      <SectionTitle>Right now, I'm...</SectionTitle>
       <UnorderedList>
         {what.map(item => <ListItem key={item.title}>{item.title}</ListItem>)}
       </UnorderedList>

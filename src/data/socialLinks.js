@@ -1,18 +1,14 @@
 export const links = {
-  github: "https://github.com/amandeepmittal",
-  twitter: "https://twitter.com/amanhimself",
-  medium: "https://medium.com/@amanhimself",
-  email: "mailto:kristijan.mkd@gmail.com",
-  bookBlog: "https://amandeepmittal.wordpress.com"
+  linkedin: "https://www.linkedin.com/in/garrettwgreen",
+  github: "https://github.com/garrett-green",
+  email: "mailto:garrett.wile.green@gmail.com",
+  twitter: "https://twitter.com/garrettgreen",
+  medium: "https://medium.com/@garrettgreen",
 };
 
 export const textLinks = [
   {
     href: links.github,
     title: "Developer"
-  },
-  {
-    href: links.bookBlog,
-    title: "Book Critic/Blogger"
   }
 ];

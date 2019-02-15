@@ -1,12 +1,12 @@
 const seo = {
-  TITLE: "Aman Mittal Portfolio",
-  AUTHOR: "Aman Mittal",
-  DESCRIPTION: "Portfolio Website",
+  TITLE: "Garrett Green | Chicago Software Engineer",
+  AUTHOR: "Garrett Green",
+  DESCRIPTION: "Garrett Green - My Portfolio",
   TYPE: "WEBSITE",
-  TWITTER_USERNAME: "@amanhimself",
-  URL: "www.amanhimself.me",
-  IMAGE_URL: "https://i.imgur.com/TLvcVR4.jpg",
-  DESCRIPTION: "Aman Mittal Portfolio"
+  TWITTER_USERNAME: "@garrettgreen",
+  URL: "www.garrettgreen.me",
+  IMAGE_URL: "https://i.imgur.com/5lWhre3.jpg",
+  // DESCRIPTION: "Garrett Green Portfolio"
 };
 
 export default seo;
