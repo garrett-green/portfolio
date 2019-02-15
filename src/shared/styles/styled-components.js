@@ -54,11 +54,12 @@ export const RightSideHome = styled(RightSide)`
 
   ${media.phoneM`
       padding-left: 30px;
+      margin-top: 60px;
     `};
 `;
 
 export const Section = styled.section`
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 `;
 
 export const SectionTitle = styled.h3`
@@ -66,7 +67,7 @@ export const SectionTitle = styled.h3`
   font-weight: 100;
   margin: 0 0 10px 0;
   color: white;
-  font-weight: 300;
+  font-weight: 600;
   padding-bottom: 5px;
   position: relative;
   &:before {
@@ -98,12 +99,15 @@ export const ListItem = styled.li`
   font-size: 18px;
   list-style-type: none;
   margin: 10px 0;
-  font-weight: 100;
-  line-height: 30px;
+  font-weight: 300;
+  line-height: 25px;
 `;
 
 export const UnorderedList = styled.ul`
+  font-size: 18px;
   padding: 0;
+  font-weight: 300;
+  line-height: 15px;
 `;
 
 export const UnderlinedLink = styled.a`

@@ -28,13 +28,13 @@ const IndexPage = () => (
       <RightSideHome>
         <Who />
         <What />
-        <DevStack />
+        {/* <DevStack /> */}
         <Technologies />
         <Projects />
-        <OpenSourceCommits />
-        <SideProjects />
-        <Blogs />
-        <Libraries />
+        {/* <OpenSourceCommits /> */}
+        {/* <SideProjects /> */}
+        {/* <Blogs /> */}
+        {/* <Libraries /> */}
         <Interesting />
       </RightSideHome>
     </Sides>

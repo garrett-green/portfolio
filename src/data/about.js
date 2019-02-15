@@ -1,14 +1,14 @@
 export const what = [
   {
-    title: "Making Applications 💻"
+    title: "Building 💻"
   },
   {
-    title: "Working Remotely 🌏"
+    title: "Teaching 👨‍🏫"
   },
   {
-    title: "Learning React Native 📱"
+    title: "Learning 🧠"
   },
   {
-    title: "Consultation for Node.js related projects"
+    title: "Searching ...for Full Stack Software Engineer opportunities 🕵️‍"
   }
 ];
