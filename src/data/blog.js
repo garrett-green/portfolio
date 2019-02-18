@@ -1,3 +1,4 @@
+/*
 export const blogposts = [
   {
     title: "Gatsby.js: How to set up and use the React Static Site Generator ",
@@ -86,3 +87,4 @@ export const blogMeta = {
   description:
     "Writer at freeCodeCamp, Hackernoon, Codeburst.io, ZeoLearn/blog and Art + Marketing."
 };
+*/

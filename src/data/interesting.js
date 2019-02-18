@@ -1,13 +1,13 @@
 export const interestingFacts = [
   {
     description:
-      "I have intereviewed cool authors such as Andy Weir (The Martian) on my book blog. 👽 "
+      "I've seen the band Phish live 20+ times. 🎸"
   },
   {
-    description: "I have more than 7k+ monthly subscribers on my Book Blog. 🤓"
+    description: "I've lived in Kentucky, Tennessee, New York, and now Illinois. 🗺"
   },
   {
     description:
-      "I am working to become a digital nomad so that I can travel and work and meet interesting personalities at the same time."
+      "I played ice hockey for 13 years. 🏒"
   }
 ];

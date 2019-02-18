@@ -19,23 +19,28 @@ export const Points = styled.div`
 
 export const Title = styled.div`
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 400;
+  color: #3DB774;
   position: relative;
+
+  &:hover {
+    color: #1E7046;
+  }
 
   &:before {
     content: "";
     width: 25px;
     height: 25px;
     border-radius: 100%;
-    color: white;
-    background-color: #66dbff;
+    color: #30A165;
+    background-color: #4BC882;
     position: absolute;
     left: -90px;
     top: 0px;
-    border: 5px solid #69359c;
+    border: 5px solid #028742;
 
     ${media.phoneM`
-        left: -45px;
+        left: -50px;
       `};
   }
 
@@ -56,14 +61,14 @@ export const Point = styled.p`
     width: 15px;
     height: 15px;
     border-radius: 100%;
-    color: white;
-    background-color: white;
+    color: #30A165;
+    background-color: #D1F3D9;
     position: absolute;
     left: -85px;
     top: 4px;
-    border: 4px solid #69359c;
+    border: 4px solid #028742;
     ${media.phoneM`
-        left: -40px;
+        left: -45px;
     `};
   }
 `;

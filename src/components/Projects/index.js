@@ -25,8 +25,9 @@ const Projects = () => {
             </Link>
             <Points>
               <Point>
-                Type: {project.type}{" "}
-                {project.type === "Open Source"
+                <b>
+                {project.type}{" "}
+                {project.type === "Personal Project"
                   ? null
                   : `for ${project.client}`}{" "}
                 <GithubUnderlinedLink
@@ -40,15 +41,17 @@ const Projects = () => {
                   rel="noopener"
                 >
                   {project.github.name === null ? null : (
-                    <FaGithub style={{ fontSize: "30px" }} />
+                    <FaGithub style={{ fontSize: "35px", color: '#1E7046' }} />
                   )}
                 </GithubUnderlinedLink>
+                </b>
               </Point>
               <Point>
+                <b>About: </b>
                 {project.description}{" "}
                 {project.extra === null ? null : `${project.extra}`}
               </Point>
-              <Point>{project.techStack}</Point>
+              <Point><b>Tech Stack: </b>{project.techStack}</Point>
             </Points>
           </div>
         ))}

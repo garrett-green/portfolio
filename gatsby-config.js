@@ -3,7 +3,7 @@ module.exports = {
     title: "Garrett Green | Chicago Software Engineer",
     description: "Garrett Green - My Portfolio",
     author: "@garrettgreen",
-    siteUrl: `http://www.garrettgreen.me`
+    siteUrl: `https://www.garrettgreen.me`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,8 +14,8 @@ module.exports = {
         name: "Garrett Green Portfolio",
         short_name: "Garrett Green",
         start_url: "/",
-        background_color: "#69359c",
-        theme_color: "#69359c",
+        background_color: "#5DD68C",
+        theme_color: "#5DD68C",
         display: "minimal-ui",
         icons: [
           {
@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-96738144-3",
+        trackingId: "UA-42203525-2",
         // Setting this parameter is optional (requried for some countries such as Germany)
         anonymize: true
       }

@@ -1,5 +1,5 @@
 .headerContainer {
-  background-color: #69359c;
+  background-color: #1E7046;
   height: 50px;
   max-width: 960;
   width: 100%;
@@ -18,11 +18,11 @@
 
 h2 a {
   text-decoration: none;
-  color: white;
+  color: #F5F5F5;
 }
 
 h2 a:hover {
-  color: #bd93d8;
+  color: #8FE9A6;
 }
 
 .headerH1 {

@@ -6,7 +6,6 @@ const seo = {
   TWITTER_USERNAME: "@garrettgreen",
   URL: "www.garrettgreen.me",
   IMAGE_URL: "https://i.imgur.com/5lWhre3.jpg",
-  // DESCRIPTION: "Garrett Green Portfolio"
 };
 
 export default seo;

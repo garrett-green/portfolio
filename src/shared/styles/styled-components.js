@@ -42,19 +42,27 @@ export const LeftSide = styled.div`
 `;
 
 const RightSide = styled.div`
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 `;
 
 export const RightSideHome = styled(RightSide)`
-  color: white;
-  border-left: 5px solid rgba(255, 255, 255, 0.5);
+  color: black;
+  border-left: 5px solid #4BC882;
   padding-left: 70px;
   margin-left: 20px;
   position: relative;
 
   ${media.phoneM`
       padding-left: 30px;
-      margin-top: 60px;
+      margin-top: 175px;
+    `};
+  ${media.phoneS`
+      padding-left: 30px;
+      margin-top: 40%;
+    `};
+  ${media.phone`
+      padding-left: 30px;
+      margin-top: 15%;
     `};
 `;
 
@@ -66,7 +74,7 @@ export const SectionTitle = styled.h3`
   font-size: 35px;
   font-weight: 100;
   margin: 0 0 10px 0;
-  color: white;
+  color: #268956;
   font-weight: 600;
   padding-bottom: 5px;
   position: relative;
@@ -76,14 +84,14 @@ export const SectionTitle = styled.h3`
     height: 25px;
     border-radius: 100%;
     color: white;
-    background-color: white;
+    background-color: #FFFFFF;
     position: absolute;
     left: -90px;
     top: 7px;
-    border: 5px solid #69359c;
+    border: 5px solid #028742;
 
     ${media.phoneM`
-        left: -45px;
+        left: -50px;
       `};
   }
   &:first-of-type:before {
@@ -124,7 +132,7 @@ export const UnderlinedLink = styled.a`
 `;
 
 export const ShowMoreButton = styled.button`
-  background-color: rgba(255, 255, 255, 0.16);
+  background-color: #1E7046;
   transition: all 200ms linear;
   border: 0;
   cursor: pointer;
@@ -137,6 +145,6 @@ export const ShowMoreButton = styled.button`
   margin-top: 5px;
 
   &:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #4BC882;
   }
 `;

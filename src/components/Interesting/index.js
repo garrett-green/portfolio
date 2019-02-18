@@ -12,10 +12,14 @@ import {
 import { interestingFacts } from "../../data/interesting";
 
 class Intersting extends Component {
-  state = {
-    show: false,
-    text: "Show me more"
-  };
+  constructor() {
+    super()
+    this.state = {
+      show: false,
+      text: "Show me more!"
+    }
+
+  }
 
   handleClick() {
     this.setState({
@@ -25,11 +29,12 @@ class Intersting extends Component {
   }
 
   render() {
+    console.log('this.state:', this.state)
     return (
       <Section>
-        <SectionTitle>Interesting</SectionTitle>
+        <SectionTitle>A Little More About Me</SectionTitle>
         <ShowMoreButton onClick={() => this.handleClick()}>
-          {this.state.text}
+          { this.state.show ? "That's Enough!" : "Show me more!" }
         </ShowMoreButton>
         <ToggleDisplay show={this.state.show}>
           <UnorderedList>

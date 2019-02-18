@@ -1,3 +1,4 @@
+/*
 export const libraries = [
   {
     title: "codestats-cli",
@@ -83,3 +84,4 @@ export const libraries = [
     techStack: "JSON"
   }
 ];
+*/
