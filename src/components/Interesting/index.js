@@ -29,7 +29,6 @@ class Intersting extends Component {
   }
 
   render() {
-    console.log('this.state:', this.state)
     return (
       <Section>
         <SectionTitle>A Little More About Me</SectionTitle>
