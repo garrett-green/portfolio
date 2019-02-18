@@ -62,7 +62,7 @@ export const RightSideHome = styled(RightSide)`
     `};
   ${media.phone`
       padding-left: 30px;
-      margin-top: 15%;
+      margin-top: 45%;
     `};
 `;
 
