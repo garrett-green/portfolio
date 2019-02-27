@@ -1,13 +1,8 @@
-# gatsby-starter-default
-The default Gatsby starter
+# [garrettgreen.me](https://garrettgreen.me)
+My personal portfolio site.
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+# h/t
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+* [Gatsby](https://www.gatsbyjs.org/)
+* [Aman Mittal](http://www.amanhimself.me/)'s [gatsby-portfolio-v3](https://github.com/amandeepmittal/gatsby-portfolio-v3)
+* [Netlify](https://www.netlify.com/)
