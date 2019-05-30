@@ -8,9 +8,6 @@ const Header = () => (
   <div className={styles.headerContainer}>
     <div className={styles.headerMaxWidthContainer}>
       <h2 className={styles.headerH1}>
-        {/* <Link to="/" className={styles.headerLinkStyle}>
-          about
-        </Link> */}
         <a href='/garrett-green-resume.pdf' target="_blank" rel="noopener">
           resume
         </a>

@@ -1,13 +1,17 @@
 export const interestingFacts = [
   {
     description:
-      "I've seen the band Phish live 20+ times. 🎸"
-  },
-  {
-    description: "I've lived in Kentucky, Tennessee, New York, and now Illinois. 🗺"
+      "I've seen the band Phish live over 20 times."
   },
   {
     description:
-      "I played ice hockey for 13 years. 🏒"
+      "Richie Havens once gave me a guitar lesson."
+  },
+  {
+    description:
+      "My favorite movie is 'Swingers' with Vince Vaughn and Jon Favreau."
+  },
+  {
+    description: "I got to interview Antonio Brown about his favorite soups."
   }
 ];
