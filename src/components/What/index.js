@@ -10,9 +10,13 @@ import { what } from "../../data/about";
 const What = () => {
   return (
     <Section id="what">
-      <SectionTitle>Right now, I'm...</SectionTitle>
+      <SectionTitle>I am a...</SectionTitle>
       <UnorderedList>
-        {what.map(item => <ListItem key={item.title}>{item.title}</ListItem>)}
+        {what.map(item => (<ListItem key={item.text}>
+          <a style={{outline: 'none', color: '#1E7046', textDecoration: 'none' }} href={item.link} target="_blank" rel="noopener">
+            {item.text}
+          </a>
+        </ListItem>))}
       </UnorderedList>
     </Section>
   );
