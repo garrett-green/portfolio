@@ -9,6 +9,6 @@ export const links = {
 export const textLinks = [
   {
     href: links.github,
-    title: "Full Stack Software Engineer | JavaScript Developer"
-  }
+    title: "Full Stack Software Engineer",
+  },
 ];
