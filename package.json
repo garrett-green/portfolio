@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Aman Mittal <amandeepmittal@live.com>",
   "dependencies": {
-    "gatsby": "^1.9.153",
+    "gatsby": "^5.3.3",
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-google-analytics": "1.0.15",
     "gatsby-plugin-manifest": "1.0.12",
